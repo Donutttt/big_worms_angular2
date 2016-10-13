@@ -4,12 +4,10 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 import {routing, appRoutingProviders} from './app.routing';
 
-import { DateWithTraining } from './date-with-training.ts';
 
 @NgModule({
     declarations: [
-        AppComponent,
-        DateWithTraining
+        AppComponent
     ],
     imports: [
         BrowserModule,
